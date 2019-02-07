@@ -1,6 +1,6 @@
 {
     "name": "spa-check-for-update",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Adds the ability to check for updates on Single Page Apps!",
     "license": "MIT",
     "repository": "DannyAziz/spa-check-for-update",
