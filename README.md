@@ -22,7 +22,7 @@ window.fetch = function (url) {
     if (!url.includes("/index.html")) {
         checkForUpdate(
             () => {
-                console.log("out of data!")
+                console.log("out of date!")
             },
             () => {
                 console.error("Check for Update Error")
