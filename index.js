@@ -21,7 +21,7 @@ const stringToHash = (str) => {
     return hash;
 };
 
-const checkForUpdate = (link = window.location.origin + '/index.html', callback = () => {}, errCallback = () => {}) => {
+const checkForUpdate = (callback, errCallback, link = window.location.origin + '/index.html') => {
     if (isLocalStorageEnabled()) {
         var versionHash = localStorage.getItem('version_hash');
       } else {
